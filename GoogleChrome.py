@@ -18,7 +18,7 @@ class GoogleSearchTest:
 
     def __init__(self):
         # Define the ChromeDriver executable path
-        self.chromedriver_path = '/home/shtlp_0015/Downloads/Selenium/Practice/Drivers/chromedriver'
+        self.chromedriver_path = '/home/shtlp_0015/Downloads/Projects/GoogleAutomation/Drivers/chromedrive'
         
         # Set the executable path for the ChromeService
         os.environ["webdriver.chrome.driver"] = self.chromedriver_path
